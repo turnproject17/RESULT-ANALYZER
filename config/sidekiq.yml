@@ -1,0 +1,13 @@
+---
+development:
+  :concurrency: 12
+  :schedule:
+    daily_result_aggregator_job:
+      cron: '* * 6 * * *'
+      class: DailyResultAggregatorJob
+      queue: cron
+      description: "Result aggregator job"
+production:
+  :concurrency: 4
+:queues:
+  - default

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2024-07-25
+  subject: MyString
+  daily_high: 1.5
+  daily_low: 1.5
+  total: 1.5
+  result_count: 1
+
+two:
+  date: 2024-07-25
+  subject: MyString
+  daily_high: 1.5
+  daily_low: 1.5
+  total: 1.5
+  result_count: 1

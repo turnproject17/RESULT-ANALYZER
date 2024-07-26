@@ -1,0 +1,16 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost 
+  pool: 10
+  timeout: 10000
+  # port: 5432s
+
+development:
+  <<: *default
+  database: result_analyzer_dev_1
+  
+test:
+  <<: *default
+  database: result_analyzer_test
